@@ -1,5 +1,5 @@
 body {
-    background-color: yellow;
+    background-color: #F9E8A7;
 }
 h1 {
     text-align: center;
@@ -8,6 +8,7 @@ h1 {
 .links {
     display: flex;
     justify-content: space-around;
+    
 }
 
 p {
@@ -15,9 +16,7 @@ p {
     font-size: 18px;
 }
 
-a {
-    text-decoration: none;
-    background-color: blue;
-    color: white;
-    padding: 10px 20px;
+a .contact-link {
+    text-decoration: underline;
 }
+
